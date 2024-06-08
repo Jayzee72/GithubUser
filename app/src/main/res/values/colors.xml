@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- DARK THEME -->
+    <color name="darkPrimary">#171B30</color>
+    <color name="darkSecondary">#1F2541</color>
+    <color name="darkAccent">#708FFD</color>
+    <!-- END -->
+
+    <!-- LIGHT THEME-->
+    <!--<color name="lightPrimary">#E8E8EA</color>-->
+    <color name="lightPrimary">#F4F4F4</color>
+    <color name="lightSecondary">#D1D1D3</color>
+    <color name="lightAccent">#708FFD</color>
+    <color name="lightAccentdark">#5a72ca</color>
+    <!-- END -->
+
+    <!-- DARK THEME BLM FIX -->
+    <color name="primaryColor">#171B30</color>
+    <color name="secondaryColor">#2B314A</color>
+    <color name="favBtnColor">#B0BDF6</color>
+    <!-- END -->
+</resources>

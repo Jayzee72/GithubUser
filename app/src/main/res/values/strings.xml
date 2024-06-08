@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="searchbar_hint">Masukkan nama user </string>
+    <string name="username">Username</string>
+    <string name="nama_user">Nama User</string>
+    <string name="follower">%d  Followers </string>
+    <string name="following">%d  Following </string>
+    <string name="follower_placeholder">Follower</string>
+    <string name="following_placeholder">Following</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="theme_title">Theme Setting</string>
+    <string name="menu_1">listFav</string>
+    <string name="menu_2">settings</string>>
+
+    <!--label activity-->
+    <string name="fav_activity">List Favorite</string>
+    <string name="theme_activity">Theme Setting</string>
+</resources>

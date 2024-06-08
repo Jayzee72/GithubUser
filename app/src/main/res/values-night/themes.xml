@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubUser" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+
+        <!-- Action Bar -->
+        <item name="colorSurfaceContainer">@color/darkAccent</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="homeAsUpIndicator">@drawable/btn_back</item>
+
+        <!-- FAB Favorite-->
+        <item name="colorPrimaryContainer">@color/darkAccent</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- Progress Bar-->
+        <item name="colorSecondary">@color/darkAccent</item>
+
+        <!-- Text Style -->
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">16sp</item>
+
+        <!--Status Bar-->
+        <item name="android:statusBarColor">@color/darkSecondary</item>
+    </style>
+
+    <style name="ScreenBackground">
+        <item name="android:background">@color/darkPrimary</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@color/darkSecondary</item>
+    </style>
+
+    <style name="AvatarBorder">
+        <item name="civ_border_color">@color/darkAccent</item>
+    </style>
+
+    <style name="SearchBarStyle" parent="Widget.Material3.SearchBar">
+        <item name="android:backgroundTint">@color/darkSecondary</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabBackground">@color/darkPrimary</item>
+        <item name="tabIndicatorColor">@color/darkAccent</item>
+        <item name="tabSelectedTextColor">@color/darkAccent</item>
+        <item name="tabTextColor">@color/white</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.Material3.SearchView">
+        <item name="backgroundTint">@color/darkSecondary</item>
+    </style>
+
+    <style name="Theme.GithubUser" parent="Base.Theme.GithubUser" />
+</resources>
